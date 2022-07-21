@@ -1,13 +1,12 @@
 class Person
-  def initialize(name)
-  @name = name
-end
+  
+  attr_reader :name
 
-  def name(name)
+  def initialize(name)
     @name = name
   end
-  
-  def name
-    @name
-  end
 end
+
+
+
+
